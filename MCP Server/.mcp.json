@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ai-log-detective": {
+      "command": "/usr/local/bin/node",
+      "args": [
+        "/Users/syedahmadmujtaba/Downloads/Assignments_App/MCP Server/dist/index.js"
+      ]
+    }
+  }
+}

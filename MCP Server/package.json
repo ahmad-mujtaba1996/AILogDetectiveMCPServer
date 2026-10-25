@@ -1,0 +1,35 @@
+{
+  "name": "ai-log-detective",
+  "version": "1.0.0",
+  "description": "Minimal AI Log Detective MCP Server detecting repeated failed logins and brute-force activity",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ai-log-detective": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "node --import tsx --test tests/**/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "log-detective",
+    "security",
+    "brute-force",
+    "modelcontextprotocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
